@@ -47,7 +47,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/rococo-clone.git
+git clone https://github.com/salman679/rococo-clone
 cd rococo-clone
 ```
 
