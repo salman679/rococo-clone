@@ -11,7 +11,7 @@ export default function Action({ activeTab, setActiveTab }) {
           <div className="grid grid-cols-4 bg-slate-700 rounded-t-lg">
             <button
               onClick={() => setActiveTab("transcriptx")}
-              className={`py-3 px-4 text-center font-medium transition-colors ${
+              className={`py-3 px-4 text-center font-medium transition-colors cursor-pointer ${
                 activeTab === "transcriptx"
                   ? "bg-blue-500 text-white"
                   : "text-gray-300 hover:text-white"
@@ -21,7 +21,7 @@ export default function Action({ activeTab, setActiveTab }) {
             </button>
             <button
               onClick={() => setActiveTab("chartwright")}
-              className={`py-3 px-4 text-center font-medium transition-colors ${
+              className={`py-3 px-4 text-center font-medium transition-colors cursor-pointer ${
                 activeTab === "chartwright"
                   ? "bg-blue-500 text-white"
                   : "text-gray-300 hover:text-white"
@@ -31,7 +31,7 @@ export default function Action({ activeTab, setActiveTab }) {
             </button>
             <button
               onClick={() => setActiveTab("redactify")}
-              className={`py-3 px-4 text-center font-medium transition-colors ${
+              className={`py-3 px-4 text-center font-medium transition-colors cursor-pointer ${
                 activeTab === "redactify"
                   ? "bg-blue-500 text-white"
                   : "text-gray-300 hover:text-white"
@@ -41,7 +41,7 @@ export default function Action({ activeTab, setActiveTab }) {
             </button>
             <button
               onClick={() => setActiveTab("validity")}
-              className={`py-3 px-4 text-center font-medium transition-colors ${
+              className={`py-3 px-4 text-center font-medium transition-colors cursor-pointer ${
                 activeTab === "validity"
                   ? "bg-blue-500 text-white"
                   : "text-gray-300 hover:text-white"
@@ -177,7 +177,7 @@ export default function Action({ activeTab, setActiveTab }) {
                 </div>
 
                 <div className="flex justify-between mt-6">
-                  <button className="flex items-center text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
+                  <button className="flex cursor-pointer items-center text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
                     <svg
                       className="h-4 w-4 mr-1"
                       fill="none"
@@ -193,7 +193,7 @@ export default function Action({ activeTab, setActiveTab }) {
                     </svg>
                     Previous Example
                   </button>
-                  <button className="flex items-center text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
+                  <button className="flex items-center text-blue-400 border cursor-pointer border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
                     Next Example
                     <svg
                       className="h-4 w-4 ml-1"
@@ -334,7 +334,7 @@ export default function Action({ activeTab, setActiveTab }) {
                 </div>
 
                 <div className="flex justify-between mt-6">
-                  <button className="flex items-center text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
+                  <button className="flex items-center cursor-pointer text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
                     <svg
                       className="h-4 w-4 mr-1"
                       fill="none"
@@ -350,7 +350,10 @@ export default function Action({ activeTab, setActiveTab }) {
                     </svg>
                     Previous Example
                   </button>
-                  <button className="flex items-center text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors">
+                  <button
+                    className="flex items-center cursor-pointer
+                   text-blue-400 border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition-colors"
+                  >
                     Next Example
                     <svg
                       className="h-4 w-4 ml-1"

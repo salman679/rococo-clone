@@ -26,13 +26,13 @@ export default function Started({ onGetStarted, onSignIn }) {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={onSignIn}
-            className="text-lg px-8 py-3 border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white transition-colors rounded-full font-medium"
+            className="text-lg px-8 py-3 border-2 border-blue-400 text-blue-400 cursor-pointer hover:bg-blue-400 hover:text-white transition-colors rounded-full font-medium"
           >
             Login
           </button>
           <button
             onClick={onGetStarted}
-            className="text-lg px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white transition-colors rounded-full font-medium"
+            className="text-lg px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white cursor-pointer transition-colors rounded-full font-medium"
           >
             Signup
           </button>
