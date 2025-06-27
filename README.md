@@ -1,7 +1,3 @@
-Here’s a professional and comprehensive `README.md` for your project:
-
----
-
 # 🚀 Rococo Clone – React.js + Tailwind CSS
 
 This project is a complete recreation of the [Rococo Live Website](https://rococo-melba-7a7746.netlify.app) using **React.js**, **Tailwind CSS**, and integrated with APIs provided in the `ALI.postman_collection.json` collection.
