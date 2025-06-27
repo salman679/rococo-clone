@@ -115,6 +115,6 @@ Special thanks to the original [Rococo](https://rococo-melba-7a7746.netlify.app)
 ## 🧑‍💻 Author
 
 **Your Name**
-📫 \[[your.email@example.com](mailto:your.email@example.com)]
+📫 \[[sbinazhar671@gmail.com](mailto:sbinazhar671@gmail.com)]
 🔗 \[salmanizhar.com] | [GitHub](https://github.com/salman679) | [LinkedIn](https://linkedin.com/in/salman-izhar)
 
